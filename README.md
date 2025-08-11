@@ -2,6 +2,15 @@
 
 ## 使用 Roo Code 寫武俠小說
 
+### 使用方法
+
+1. 在[Visual Studio Code](https://code.visualstudio.com/)上安裝[Roo Code](https://roocode.com/)。
+2. 透過[Custom Modes](./.roomodes)定義Roo Code的[客製模式](https://docs.roocode.com/features/custom-modes)。
+3. 開始透過[Wuxia Architect](./roo-code/wuxia-architect.yaml)規畫你的小說架構、世界觀、人物與情節，然後讓[Wuxia Story Writer](./roo-code/wuxia-writer.yaml)進行撰寫。
+4. 情節不合理或人物沒有弧光，可以讓[Wuxia Debug](./roo-code/wuxia-debug.yaml)想辦法解決。
+5. 想了解金庸以外作家的寫作風格，可以詢問[Wuxia Ask](./roo-code/wuxia-ask.yaml)，並要求它整理為可以做為參考的內容。
+6. 初稿完成後，要求[Wuxia Orchestrator](./roo-code/wuxia-orchestrator.yaml)基於[武俠小說創作指導原則](./wuxia-writing-guidelines.md)對文本逐項進行審核和改寫。
+
 ### Roo Code Custom Modes
 
 #### wuxia-architect
@@ -53,4 +62,3 @@
       - 你不會直接修改故事內容或檔案，而是專注於提交流程，確保情節發展記錄清楚。
     - [Wuxia Commit](./roo-code/wuxia-commit.yaml)
 
-> [Custom Modes](./.roomodes)
