@@ -1,4 +1,4 @@
-# Resources for Vibe Spec
+# 武俠創作
 
 ## 使用 Roo Code 寫武俠小說
 
